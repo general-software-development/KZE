@@ -20,7 +20,7 @@ The interface granted access to by CAP_KERNEL shall have the following APIs:
 * `map_page_self(void* virtual_addr, u64 physical_addr)`: Maps a page, worth 4KiB, in the current process, from a 64-bit physical address to a target virtual address
 * `map_page_other(pid_t target_pid, void* virtual_addr, u64 physical_addr)`: Maps a page, worth 4KiB, in the target process (selected by PID), from a 64-bit physical address to a target virtual address
 * `unmap_page_self(void* virtual_addr)`: Unmaps a page by its virtual address from the current process
-* `unmap_page_other(pid_t target_pid, void* virtual_addr)`: Unmaps a page by its virtual address from the current process
+* `unmap_page_other(pid_t target_pid, void* virtual_addr)`: Unmaps a page by its virtual address from the target process
 * `reverse_virtual(pid_t target_pid, u64 physical_addr)`: From a physical address, returns one of the virtual addresses mapped (no guarantee as to which) in the target process that map to that physical address
 * `resolve_virtual(pid_t target_pid, void* virtual_addr)`: From a virtual address, figure out and return the physical address it is mapped to in the target process
 
