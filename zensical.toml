@@ -1,13 +1,13 @@
 [project]
 site_url = "https://www.example.com/"
-site_name = "Documentation"
-# site_description = "Your project description"
-# site_author = "Your name"
+site_name = "KZE Standard"
+site_description = "KZ(Extended) Kernel Standard"
+site_author = "bogdan-glitchm"
 
-# copyright = "Copyright &copy; 2026 Your name"
+copyright = "Copyright &copy; 2026 bogdan-glitchm"
 
-# repo_url = "https://github.com/user/repo"
-# repo_name = "user/repo"
+repo_url = "https://github.com/general-software-development/KZE"
+repo_name = "general-software-development/KZE"
 # edit_uri = "edit/main/docs/"
 
 # extra_css = ["stylesheets/extra.css"]
